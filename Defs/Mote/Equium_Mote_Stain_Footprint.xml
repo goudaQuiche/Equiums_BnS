@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- red	 -->
+	<ThingDef ParentName="FootprintBase">
+		<defName>Mote_Equium_Red_Footprint</defName>
+		<graphicData>
+			<texPath>Mote/Footprint/Equium/Red_Footprint</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<!-- green	 -->
+	<ThingDef ParentName="FootprintBase">
+		<defName>Mote_Equium_Green_Footprint</defName>
+		<graphicData>
+			<texPath>Mote/Footprint/Equium/Green_Footprint</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<!-- yellow	 -->
+	<ThingDef ParentName="FootprintBase">
+		<defName>Mote_Equium_Yellow_Footprint</defName>
+		<graphicData>
+			<texPath>Mote/Footprint/Equium/Yellow_Footprint</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<!-- brown	 -->
+	<ThingDef ParentName="FootprintBase">
+		<defName>Mote_Equium_Brown_Footprint</defName>
+		<graphicData>
+			<texPath>Mote/Footprint/Equium/Brown_Footprint</texPath>
+		</graphicData>
+	</ThingDef>
+		
+
+</Defs>

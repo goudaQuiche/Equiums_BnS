@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+		<!-- Equium footprints -->	
+	<HediffDef ParentName="Hediff_HiddenBase">
+		<defName>Hediff_Equium_Stain_Footprint</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+
+		<description>Equium footprints</description>
+		<label>Stain_Footprint.Equium</label>
+		
+		<comps>
+			<li Class="BloodDripping.HediffCompProperties_Stain_Footprint">
+				<race>Alien_Equium</race>
+				
+				<period>30</period>
+				
+				<footprint>
+					<li>
+						<defName>red_fluid</defName>
+						<triggerOnFilthDef>
+							<li>Filth_Blood</li>
+							<li>FilthBloodEquium</li>
+						</triggerOnFilthDef>
+						<moteDef>Mote_Equium_Red_Footprint</moteDef>
+					</li>
+					<li>
+						<defName>green_fluid</defName>
+						<triggerOnFilthDef>
+							<li>Filth_BloodInsect</li>
+						</triggerOnFilthDef>
+						<moteDef>Mote_Equium_Green_Footprint</moteDef>
+					</li>
+					<li>
+						<defName>yellow_fluid</defName>
+						<triggerOnFilthDef>
+							<li>Filth_Vomit</li>
+						</triggerOnFilthDef>
+						<moteDef>Mote_Equium_Yellow_Footprint</moteDef>
+					</li>
+					<li>
+						<defName>brown_fluid</defName>
+						<triggerOnFilthDef>
+							<li>Filth_AnimalFilth</li>
+						</triggerOnFilthDef>
+						<moteDef>Mote_Equium_Brown_Footprint</moteDef>
+					</li>
+				</footprint>
+				
+				<!-- <debug>true</debug> -->
+			</li>
+		</comps>
+	</HediffDef>
+		
+</Defs>

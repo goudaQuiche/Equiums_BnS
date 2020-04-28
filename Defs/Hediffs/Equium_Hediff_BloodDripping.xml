@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+		<!-- red equium puddles -->	
+	<HediffDef ParentName="Hediff_HiddenBase">
+		<defName>Hediff_Equium_Red_BloodDripping</defName>
+		
+		<hediffClass>HediffWithComps</hediffClass>
+		
+		<description>equium blood puddles</description>
+		<label>BloodDripping.redBlood</label>
+		
+		<comps>
+			<li Class="BloodDripping.HediffCompProperties_BloodDripping">
+				<race>Alien_Equium</race>
+				
+				<period>40</period>
+				<minPeriod>30</minPeriod>
+				<maxPeriod>80</maxPeriod>
+				
+				<puddleMoteDef>
+					<li>Mote_RedBlood_A</li>
+					<li>Mote_RedBlood_B</li>
+					<li>Mote_RedBlood_C</li>
+				</puddleMoteDef>
+
+				<randomScale>.6~.75</randomScale>
+				<randomRotation>-15~15</randomRotation>
+				
+				<!-- <debug>true</debug> -->
+			</li>
+		</comps>
+	</HediffDef>
+
+</Defs>

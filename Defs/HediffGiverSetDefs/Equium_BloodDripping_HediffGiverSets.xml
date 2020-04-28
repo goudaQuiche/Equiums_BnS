@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffGiverSetDef>
+		<defName>Equium_BloodDripping_HediffGiverSet</defName>
+		
+		<hediffGivers>
+			<li Class="BloodDripping.CustomRace_HediffGiver_BloodDripping">
+				<hediff>Hediff_Equium_Red_BloodDripping</hediff>
+
+				<partsToAffect>
+					<li>Heart</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
+		
+		
+	</HediffGiverSetDef>
+
+</Defs>
