@@ -13,7 +13,8 @@
 	<ThingDef ParentName="FootprintBase">
 		<defName>Mote_Equium_Green_Footprint</defName>
 		<graphicData>
-			<texPath>Mote/Footprint/Equium/Green_Footprint</texPath>
+			<texPath>Mote/Footprint/Equium/White_Footprint</texPath>
+			<color>(132, 138, 114, 180)</color>
 		</graphicData>
 	</ThingDef>
 	
@@ -21,7 +22,8 @@
 	<ThingDef ParentName="FootprintBase">
 		<defName>Mote_Equium_Yellow_Footprint</defName>
 		<graphicData>
-			<texPath>Mote/Footprint/Equium/Yellow_Footprint</texPath>
+			<texPath>Mote/Footprint/Equium/White_Footprint</texPath>
+			<color>(179, 185, 73, 180)</color>
 		</graphicData>
 	</ThingDef>
 	
@@ -29,7 +31,8 @@
 	<ThingDef ParentName="FootprintBase">
 		<defName>Mote_Equium_Brown_Footprint</defName>
 		<graphicData>
-			<texPath>Mote/Footprint/Equium/Brown_Footprint</texPath>
+			<texPath>Mote/Footprint/Equium/White_Footprint</texPath>
+			<color>(97,65,48,97)</color>
 		</graphicData>
 	</ThingDef>
 		

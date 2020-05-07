@@ -47,6 +47,7 @@
 					</li>
 				</footprint>
 				
+				<randomScale>.5~.5</randomScale>
 				<!-- <debug>true</debug> -->
 			</li>
 		</comps>
