@@ -29,7 +29,7 @@
 						<triggerOnFilthDef>
 							<li>Filth_BloodInsect</li>
 						</triggerOnFilthDef>
-						<moteDef>Mote_Equium_Green_Footprint</moteDef>
+						<moteDef>Mote_Equium_LightGreen_Footprint</moteDef>
 					</li>
 					<li>
 						<defName>yellow_fluid</defName>

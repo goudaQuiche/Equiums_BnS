@@ -5,13 +5,15 @@
 	<ThingDef ParentName="FootprintBase">
 		<defName>Mote_Equium_Red_Footprint</defName>
 		<graphicData>
-			<texPath>Mote/Footprint/Equium/Red_Footprint</texPath>
+			<!-- <texPath>Mote/Footprint/Equium/Red_Footprint</texPath> -->
+			<texPath>Mote/Footprint/Equium/White_Footprint</texPath>
+			<color>(131, 34, 34, 180)</color>
 		</graphicData>
 	</ThingDef>
 	
 	<!-- green	 -->
 	<ThingDef ParentName="FootprintBase">
-		<defName>Mote_Equium_Green_Footprint</defName>
+		<defName>Mote_Equium_LightGreen_Footprint</defName>
 		<graphicData>
 			<texPath>Mote/Footprint/Equium/White_Footprint</texPath>
 			<color>(132, 138, 114, 180)</color>
